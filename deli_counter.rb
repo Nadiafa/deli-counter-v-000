@@ -9,23 +9,7 @@ def line(array)
     array.each.with_index(1) {|p, i| phrase << "#{i}. #{p}"
     puts phrase
   end
-  
-  
-def line(deli)
-  if deli.empty?
-    puts "The line is currently empty."
-  else
-    current_line = "The line is currently:"
-    deli.each.with_index(1) do |person, i|
-      current_line << " #{i}. #{person}"
-    end
-    puts current_line
-  end
-end
-  
-  
-  
-  
+ 
 end 
 
 =begin
