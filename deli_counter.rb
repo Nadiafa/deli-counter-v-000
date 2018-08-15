@@ -21,6 +21,6 @@ def now_serving
   if array.any? == false
     puts "The line is currently empty."
   else
-    
+    puts "Currently serving #{array.first}."
   end
 end 
