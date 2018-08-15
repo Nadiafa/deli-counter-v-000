@@ -1,4 +1,4 @@
-queue = []
+q = []
 
 def line 
   line.any? = 
