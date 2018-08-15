@@ -18,5 +18,9 @@ def take_a_number(array, name)
 end
 
 def now_serving
-  
+  if array.any? == false
+    puts "The line is currently empty."
+  else
+    
+  end
 end 
