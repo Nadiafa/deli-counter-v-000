@@ -1,6 +1,6 @@
 q = []
 
-def line 
+def line(q)
   if line == false 
     puts "The line is currently empty"
   else
