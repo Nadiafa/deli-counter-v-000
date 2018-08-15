@@ -5,8 +5,8 @@ def line(array)
     puts "The line is currently empty."
   else
     phrase = "The line is currently: "
-    array.each.with_index(1) {|p, i| phrase << "#{i}. #{p}"}
-    puts phrase
+    array.each.with_index(1) {|p, i| phrase << "#{i}. #{p} "}
+    puts phraseå
   end
 end 
 
