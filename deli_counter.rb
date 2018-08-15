@@ -5,20 +5,23 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each { |p, i| person=p, position=i+1}
-    puts "The line is currently: #{position"
+    phrase = "The line is currently: "
+    array.each.with_index(1) {|p, i| phrase << "#{i}. #{p}"
+    puts phrase
   end
   
   
-  if (line.length === 0) {
-    return `The line is currently empty.`
-  } 
-  var katzDeliLine = []
-  for (var i=0, l=line.length; i<l; i++){
-    katzDeliLine.push(`${i + 1}. ${line[i]}`)
-  } 
-  return `The line is currently: ${katzDeliLine.join(', ')}` 
-  
-  
+def line(deli)
+  if deli.empty?
+    puts "The line is currently empty."
+  else
+    current_line = "The line is currently:"
+    deli.each.with_index(1) do |person, i|
+      current_line << " #{i}. #{person}"
+    end
+    puts current_line
+  end
+end
   
   
   
