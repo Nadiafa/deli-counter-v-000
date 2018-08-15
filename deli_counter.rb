@@ -13,5 +13,7 @@ def line(array)
 end
 
 def take_a_number(array, name)
+  # The method should call out (puts) the person's name along with their position in line. Top-Tip: Remember that people like to count from 1, not from 0 ("zero") like computers.
+  puts "Welcome #{name}, you are #{array.lenght"
   
 end
