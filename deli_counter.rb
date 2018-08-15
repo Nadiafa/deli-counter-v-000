@@ -1,5 +1,5 @@
 queue = []
 
 def line 
-  line
+  line.any? = 
 end 
