@@ -1,7 +1,7 @@
 q = []
 
 def line 
-  if line.any? == false 
+  if line == false 
     puts "The line is currently empty"
   end
 end 
