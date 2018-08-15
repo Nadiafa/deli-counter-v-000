@@ -4,7 +4,6 @@ def line(array)
   if array.any? == false 
     puts "The line is currently empty."
   else
-    array.each {|p, i| person=p, position=i+1}
     phrase = "The line is currently: "
     array.each.with_index(1) {|p, i| phrase << "#{i}. #{p}"}
     puts phrase
